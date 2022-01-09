@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 10;
+const nuevaString = 'Jeison';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 98;
@@ -88,7 +88,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x%y;
+  return x%y;
 }
 
 function esPar(num) {
@@ -168,7 +168,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  nombre = 'Hola '+nombre;
+  return 'Hola '+ nombre +'!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -188,7 +188,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return 2/base*altura;
+  return (base*altura)/2;
 }
 
 
@@ -207,9 +207,9 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length<=1) 
-    if(letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') console.log('Es vocal'); 
-    else console.log('Dato incorrecto');
-  else console.log('Dato incorrecto');
+    if(letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') return 'Es vocal'; 
+    else return 'Dato incorrecto';
+  else return 'Dato incorrecto';
 }
 
 
